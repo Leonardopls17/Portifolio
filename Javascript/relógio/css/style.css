@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://www.10wallpaper.com/wallpaper/2560x1600/1311/field_dawn_sky_beautiful-Landscape_HD_Wallpaper_2560x1600.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.saudacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.saudacao div {
+    font-size: 30px;
+}
+
+.saudacao span {
+    font-size: 30px;
+}
+
+.central {
+    width: 450px;
+    height: 450px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1085/1085157.png");
+    background-size: cover;
+    border-radius: 900px;
+    box-shadow: 10px 10px 50px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.central div {
+
+    color: white;
+    border-radius: 10px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.central div span {
+    font-size: 80px;
+
+
+}
+
+.central div p {
+    font-size: 35px;
+    margin: 0;
+}
+.dia{
+    background: url('/images/mais-um-dia-de-sol-e-temperatura-elevada-em-sc-1595502961.jpg');
+    background-size: cover;
+}
+.noite{
+    background: url('/images/depositphotos_85236464-stock-photo-romantic-moon-in-starry-night.jpg');
+    background-size: cover;
+}

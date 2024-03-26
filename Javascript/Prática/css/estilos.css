@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://www.colniza.mt.leg.br/imagens/fundo-3d-de-paisagens.jpg/image);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.central {
+    
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.calendario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 50px;
+
+}
+#Mensagem{
+      
+    font-size: 60px;
+}
+.central div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.central span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1085/1085157.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
+
+}
+.central p{
+    font-size: 35px;
+    margin: 0;
+}

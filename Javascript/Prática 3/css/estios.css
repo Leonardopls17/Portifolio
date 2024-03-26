@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background-image: url(https://stampagramas.com.br/wp-content/uploads/2021/02/2021-02-12-tamanhos-oficiais-de-campo-society-1280x720.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central{
+    width: 700px;
+    height: 500px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    gap: 20px;
+}
+.central button{
+    outline: none;
+    cursor: pointer;
+}
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
