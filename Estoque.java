@@ -1,3 +1,4 @@
+package Atividade;
 import java.util.Scanner;
 
 public class Estoque {
@@ -12,6 +13,8 @@ public class Estoque {
         int Mes2ProdutoA = teclado.nextInt();
         System.out.printf("Digite a quantidade vendida no mês 3: ");
         int Mes3ProdutoA = teclado.nextInt();
+        System.out.printf("Digite a quantidade vendida no mês 4: ");
+        int Mes4ProdutoA = teclado.nextInt();
         System.out.printf("Digite o tempo de reposição do produto A: ");
         float trProdutoA = teclado.nextFloat();
         System.out.printf("Digite o lote de reposição do produto A: ");
@@ -19,7 +22,7 @@ public class Estoque {
         System.out.printf("Digite o estoque atual do produto A: ");
         float eaProdutoA = teclado.nextFloat();
 
-        float vmdProdutoA = ((Mes1ProdutoA + Mes2ProdutoA + Mes3ProdutoA) / 3) / 25;
+        float vmdProdutoA = ((Mes1ProdutoA + Mes2ProdutoA + Mes3ProdutoA + Mes4ProdutoA) / 3) / 25;
         float eminProdutoA = (trProdutoA * vmdProdutoA);
         float emaxProdutoA = (lrProdutoA + eminProdutoA);
 
@@ -41,6 +44,8 @@ public class Estoque {
         int Mes2ProdutoB = teclado.nextInt();
         System.out.printf("Digite a quantidade vendida no mês 3: ");
         int Mes3ProdutoB = teclado.nextInt();
+        System.out.printf("Digite a quantidade vendida no mês 4: ");
+        int Mes4ProdutoB = teclado.nextInt();
         System.out.printf("Digite o tempo de reposição do produto B: ");
         float trProdutoB = teclado.nextFloat();
         System.out.printf("Digite o lote de reposição do produto B: ");
@@ -48,7 +53,7 @@ public class Estoque {
         System.out.printf("Digite o estoque atual do produto B: ");
         float eaProdutoB = teclado.nextFloat();
 
-        float vmdProdutoB = ((Mes1ProdutoB + Mes2ProdutoB + Mes3ProdutoB) / 3) / 25;
+        float vmdProdutoB = ((Mes1ProdutoB + Mes2ProdutoB + Mes3ProdutoB + Mes4ProdutoB) / 3) / 25;
         float eminProdutoB = (trProdutoB * vmdProdutoB);
         float emaxProdutoB = (lrProdutoB + eminProdutoB);
 
@@ -70,6 +75,8 @@ public class Estoque {
         int Mes2ProdutoC = teclado.nextInt();
         System.out.printf("Digite a quantidade vendida no mês 3: ");
         int Mes3ProdutoC = teclado.nextInt();
+        System.out.printf("Digite a quantidade vendida no mês 4: ");
+        int Mes4ProdutoC = teclado.nextInt();
         System.out.printf("Digite o tempo de reposição do produto C: ");
         float trProdutoC = teclado.nextFloat();
         System.out.printf("Digite o lote de reposição do produto C: ");
@@ -77,7 +84,7 @@ public class Estoque {
         System.out.printf("Digite o estoque atual do produto C: ");
         float eaProdutoC = teclado.nextFloat();
 
-        float vmdProdutoC = ((Mes1ProdutoC + Mes2ProdutoC + Mes3ProdutoC) / 3) / 25;
+        float vmdProdutoC = ((Mes1ProdutoC + Mes2ProdutoC + Mes3ProdutoC + Mes4ProdutoC) / 3) / 25;
         float eminProdutoC = (trProdutoC * vmdProdutoC);
         float emaxProdutoC = (lrProdutoC + eminProdutoC);
 
